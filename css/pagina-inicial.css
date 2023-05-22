@@ -144,3 +144,9 @@ img[src="img/idioma.png"] {
     color: white;
     margin: 5px;
 }
+
+footer h2{
+    font-weight: 300;
+    text-align: center;
+    margin: 30px;
+}
