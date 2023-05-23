@@ -3,6 +3,11 @@
     --cinza: #242526;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 html{
     margin: 10;
 }
