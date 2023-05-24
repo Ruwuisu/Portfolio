@@ -247,3 +247,32 @@ footer h2{
 .sobreposicao, .sobreposicao2, .sobreposicao3{
 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+@media screen and (min-width: 900px) {
+    body{
+        max-width: 50vw;
+    }
+    
+    .sobreposicao{
+        width: 300px;
+    }
+    
+    .sobreposicao2, .sobreposicao3{
+        width: 100px;
+    }
+    
+    h1{
+    font-size: 40px;
+}
+
+    h2{
+    font-size: 24px;
+}
+
+    h3{
+    font-size: 16px;
+}
+}
