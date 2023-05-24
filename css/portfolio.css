@@ -52,7 +52,7 @@ html h2{
     margin-top: -5px;
 }
 
-img[src="img/pfpx.jpeg"] {
+img[src="img/pfp.jfif"] {
   border-radius: 10px;
 }
 
@@ -149,6 +149,44 @@ img[src="img/idioma.png"] {
     color: white;
     margin: 5px;
 }
+
+
+.thumb2 {
+    position: relative;
+  width: 100%;
+    height: 100%;
+}
+
+.thumb2 img {
+  max-width: 100%;
+  border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.sobreposicao2 {
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: var(--cinza);
+  padding: 5px;
+  border-radius: 10px;
+    width: 10vw;
+}
+
+.sobreposicao2 h2, .sobreposicao2 img{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    margin: 5px;
+}
+
+.thumb2{
+   display: flex;
+  justify-content: flex-end;
+}
+
 
 footer h2{
     font-weight: 300;
