@@ -262,7 +262,7 @@ iframe{
 
 @media screen and (min-width: 900px) {
     body{
-        max-width: 50vw;
+        max-width: 30vw;
     }
     
     .sobreposicao{
